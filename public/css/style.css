@@ -1,0 +1,268 @@
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/public/fonts/Satoshi.ttf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Satoshi', sans-serif;
+  height: 6000px;
+}
+
+/*  
+############################
+########## NAVBAR ##########
+############################
+*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  height: 100px;
+}
+
+.main-logo {
+  width: 123px;
+  height: 40px;
+}
+
+.parent-list-nav {
+  list-style: none;
+  display: flex;
+}
+
+.list-nav {
+  margin: 0 20px;
+  color: #9E9E9E;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 18px;
+}
+
+.btn {
+  width: 100px;
+  background: none;
+  padding: 10px 20px;
+  border: 1px solid #603D35;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn--login {
+  margin-right: 20px;
+  color: #603D35;
+}
+
+.btn--register {
+  background-color: #603D35;
+  color: #fff;
+}
+
+/*  
+##########################
+########## MAIN ##########
+##########################
+*/
+
+/* 
+########## SECTION ONE ##########
+ */
+.section-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 0;
+}
+
+.container-title {
+  height: 228px;
+  width: 939px;
+}
+
+.main-title {
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.main-title span {
+  color: #603D35;
+}
+
+.title-description {
+  font-size: 18px;
+  color: #777;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Plus Jakarta Sans';
+}
+
+/* 
+########## SECTION TWO ##########
+ */
+.container-first-part,
+.container-second-part {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 0 100px;
+  padding-bottom: 100px;
+}
+
+.image-first-part {
+  width: 100%;
+  height: 500px;
+}
+
+.image-second-part {
+  width: 521px;
+}
+
+.container-second-part {
+  gap: 118px;
+}
+
+.top-part-tertiary-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 76px;
+  margin-bottom: 32px;
+}
+
+.top-part-tertiary-text span {
+  color: #603D35;
+}
+
+.top-part-description-text {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 32px;
+}
+
+.text-bottom-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quality,
+.experient {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  display: inline-block;
+}
+
+.quality-box,
+.experient-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 16px;
+}
+
+.quality-description,
+.experient-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: #777;
+}
+
+/* 
+########## SECTION THREE ##########
+ */
+.section-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 100px;
+  margin-bottom: 64px;
+}
+
+.center-logo {
+  width: 100%;
+}
+
+/* 
+########## SECTION FOUR ##########
+ */
+.section-four {
+  padding: 0 100px;
+  margin-bottom: 100px;
+}
+
+.section-four-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.section-four-secondary-text {
+  font-weight: 500;
+  font-size: 56px;
+  width: 611px;
+}
+
+.section-four-secondary-text span {
+  color: #603D35;
+}
+
+.section-four-description-text {
+  width: 425px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #777;
+  text-align: right;
+}
+
+.section-four-main-image {
+  width: 100%;
+}
+
+/* 
+########## SECTION FIVE ##########
+ */
+.section-five {
+  padding: 0 100px;
+  margin-bottom: 100px;
+}
+
+.section-five-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 64px;
+}
+
+.section-five-secondary-text {
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.section-five-secondary-text span {
+  color: #603D35;
+}
+
+.section-five-description-text {
+  font-weight: 500;
+  font-size: 20px;
+  color: #777;
+}
+
+.section-five-main-image {
+  width: 100%;
+}
