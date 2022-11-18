@@ -14,6 +14,7 @@
     <title>Branding Coffe</title>
 </head>
 <body>
+    <!-- NAVBAR -->
     <nav class="navbar">
         <img src="images/logo-coffe.png" alt="logo coffe" class="main-logo">
         <ul class="parent-list-nav">
@@ -27,13 +28,16 @@
             <button class="btn btn--register">Register</button>
         </div>
     </nav>
+    <!-- MAIN SECTION -->
     <main class="main-section">
+        <!-- SECTION ONE -->
         <section class="section-one">
             <div class="container-title">
                 <h1 class="main-title">Take your time and <span>stay</span> connected with <span>connections</span></h1>
                 <p class="title-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit massa id blandit pretium. Mauris semper nunc ut sapien.</p>
             </div>
         </section>
+        <!-- SECTION TWO -->
         <section class="section-two">
             <div class="container-first-part">
                 <img src="images/section-one--image-first-part.png" alt="Coffe Grinder" class="image-first-part">
@@ -64,9 +68,11 @@
                 </div>
             </div>
         </section>
+        <!-- SECTION THREE -->
         <section class="section-three">
             <img src="images/logo-center.png" alt="Center Logo" class="center-logo">
         </section>
+        <!-- SECTION FOUR -->
         <section class="section-four">
             <div class="section-four-text">
                 <h2 class="section-four-secondary-text">Our <span>signature</span> menu and <span>best</span> seller</h2>
@@ -76,6 +82,7 @@
                 <img src="images/section-four--main-image.png" alt="Coffe Variant" class="section-four-main-image">
                 </div>
         </section>
+        <!-- SECTION FIVE -->
         <section class="section-five">
             <div class="section-five-text">
                 <h2 class="section-five-secondary-text">Our comfort <span>place</span></h2>
@@ -84,6 +91,19 @@
             <div class="section-five-image">
                 <img src="images/section-five--main-image.png" alt="Coffe Place" class="section-five-main-image">
                 </div>
+        </section>
+        <!-- SECTION SIX -->
+        <section class="section-six">
+            <div class="section-six-text">
+                <h3 class="section-six-tertiary-text">Love to hear something from you</h3>
+            </div>
+            <form class="section-six-form">
+                <h3 class="section-six-form-text">Get in touch</h3>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Number">
+                <button class="submit" type="submit">Send</button>
+            </form>
         </section>
     </main>
 </body>

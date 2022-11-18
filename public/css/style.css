@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+}
+
 body {
   font-family: 'Satoshi', sans-serif;
   height: 6000px;
@@ -236,7 +240,7 @@ body {
  */
 .section-five {
   padding: 0 100px;
-  margin-bottom: 100px;
+  margin-bottom: 240px;
 }
 
 .section-five-text {
@@ -265,4 +269,64 @@ body {
 
 .section-five-main-image {
   width: 100%;
+}
+
+/* 
+########## SECTION SIX ##########
+ */
+.section-six {
+  display: flex;
+  justify-content: space-between;
+  background-image: url('../images/section-six--backround.png');
+  padding: 80px 100px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.section-six-tertiary-text {
+  font-weight: 500;
+  font-size: 50px;
+  color: #fff;
+  width: 380px;
+}
+
+.section-six-form {
+  width: 400px;
+  height: 375px;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 40px 40px;
+  position: absolute;
+  top: -40%;
+  right: 7.5%;
+  box-shadow: 7px -6px 30px rgba(49, 49, 49, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.section-six-form-text {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.section-six-form input {
+  border: none;
+  border-bottom: 1px #603D35 solid;
+  padding: 15px 0;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 500;
+}
+
+.submit {
+  margin-top: 40px;
+  border: none;
+  padding: 10px 0;
+  border-radius: 3px;
+  font-family: 'Plus Jakarta Sans';
+  background-color: #603D35;
+  color: #fff;
+  cursor: pointer;
 }
