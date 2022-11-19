@@ -15,7 +15,7 @@
 
 body {
   font-family: 'Satoshi', sans-serif;
-  height: 6000px;
+  padding-bottom: 80px;
 }
 
 /*  
@@ -206,24 +206,24 @@ body {
   margin-bottom: 100px;
 }
 
-.section-four-text {
+.section-four--text {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 64px;
 }
 
-.section-four-secondary-text {
+.section-four--secondary-text {
   font-weight: 500;
   font-size: 56px;
   width: 611px;
 }
 
-.section-four-secondary-text span {
+.section-four--secondary-text span {
   color: #603D35;
 }
 
-.section-four-description-text {
+.section-four--description-text {
   width: 425px;
   font-weight: 400;
   font-size: 20px;
@@ -231,7 +231,7 @@ body {
   text-align: right;
 }
 
-.section-four-main-image {
+.section-four--main-image {
   width: 100%;
 }
 
@@ -243,7 +243,7 @@ body {
   margin-bottom: 240px;
 }
 
-.section-five-text {
+.section-five--text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -252,22 +252,22 @@ body {
   margin-bottom: 64px;
 }
 
-.section-five-secondary-text {
+.section-five--secondary-text {
   font-weight: 500;
   font-size: 60px;
 }
 
-.section-five-secondary-text span {
+.section-five--secondary-text span {
   color: #603D35;
 }
 
-.section-five-description-text {
+.section-five--description-text {
   font-weight: 500;
   font-size: 20px;
   color: #777;
 }
 
-.section-five-main-image {
+.section-five--main-image {
   width: 100%;
 }
 
@@ -283,15 +283,15 @@ body {
   margin-bottom: 100px;
 }
 
-.section-six-tertiary-text {
+.section-six--tertiary-text {
   font-weight: 500;
   font-size: 50px;
   color: #fff;
   width: 380px;
 }
 
-.section-six-form {
-  width: 400px;
+.section-six--form {
+  width: 450px;
   height: 375px;
   background-color: #fff;
   border-radius: 3px;
@@ -304,7 +304,7 @@ body {
   flex-direction: column;
 }
 
-.section-six-form-text {
+.section-six--form-text {
   text-align: center;
   font-style: normal;
   font-weight: 500;
@@ -312,7 +312,7 @@ body {
   margin-bottom: 40px;
 }
 
-.section-six-form input {
+.section-six--form input {
   border: none;
   border-bottom: 1px #603D35 solid;
   padding: 15px 0;
@@ -329,4 +329,172 @@ body {
   background-color: #603D35;
   color: #fff;
   cursor: pointer;
+}
+
+/* 
+########## SECTION SEVEN ##########
+ */
+.section-seven {
+  padding: 0 100px;
+  margin-bottom: 160px;
+}
+
+.section-seven--text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-seven--secondary-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  margin-bottom: 24px;
+  color: #131313;
+}
+
+.section-seven--description-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: 'Plus Jakarta Sans';
+  color: #777;
+  margin-bottom: 64px;
+}
+
+.testimonials {
+  display: flex;
+  gap: 24px;
+}
+
+.testimonials-one,
+.testimonials-two,
+.testimonials-three {
+  width: 400px;
+  background-color: #F6F5EF;
+  padding: 40px;
+  border-radius: 3px;
+}
+
+.testimonials-stars,
+.testimonials-description {
+  margin-bottom: 20px;
+}
+
+.testimonials-description {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #888;
+}
+
+.testimonials-person {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.testimonials-person--text {
+  font-family: 'Plus Jakarta Sans';
+}
+
+.testimonials-person--text h4 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #131313;
+}
+
+.testimonials-person--text p {
+  color: #888;
+  font-size: 12px;
+}
+
+/*  
+############################
+########## FOOTER ##########
+############################
+*/
+.footer {
+  padding: 0 100px;
+}
+
+.footer--information {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 42px;
+  padding-bottom: 80px;
+}
+
+.footer--information-one {
+  width: 320px;
+}
+
+.footer--information-one img {
+  margin-bottom: 15px;
+}
+
+.information-one-description {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #777;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.information-one-icon {
+  color: #888;
+  font-size: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.footer--information-two h4,
+.footer--information-three h4,
+.footer--information-four h4,
+.footer--information-five h4 {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #131313;
+}
+
+.footer--information-two a,
+.footer--information-three a,
+.footer--information-four a,
+.footer--information-five a {
+  text-decoration: none;
+  color: #777;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.footer--information-two ul,
+.footer--information-three ul,
+.footer--information-four ul,
+.footer--information-five ul {
+  list-style: none;
+}
+
+.footer--information-two li,
+.footer--information-three li,
+.footer--information-four li,
+.footer--information-five li {
+  margin-bottom: 10px;
+}
+
+.copyright {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #888;
+  text-align: center;
 }

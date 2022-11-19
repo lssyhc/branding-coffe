@@ -12,6 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
     <title>Branding Coffe</title>
+
+    <!-- icons -->
+    <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
     <!-- NAVBAR -->
@@ -74,37 +78,128 @@
         </section>
         <!-- SECTION FOUR -->
         <section class="section-four">
-            <div class="section-four-text">
-                <h2 class="section-four-secondary-text">Our <span>signature</span> menu and <span>best</span> seller</h2>
-                <p class="section-four-description-text">Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text</p>
+            <div class="section-four--text">
+                <h2 class="section-four--secondary-text">Our <span>signature</span> menu and <span>best</span> seller</h2>
+                <p class="section-four--description-text">Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text</p>
             </div>
-            <div class="section-four-image">
-                <img src="images/section-four--main-image.png" alt="Coffe Variant" class="section-four-main-image">
+            <div class="section-four--image">
+                <img src="images/section-four--main-image.png" alt="Coffe Variant" class="section-four--main-image">
                 </div>
         </section>
         <!-- SECTION FIVE -->
         <section class="section-five">
-            <div class="section-five-text">
-                <h2 class="section-five-secondary-text">Our comfort <span>place</span></h2>
-                <p class="section-five-description-text">Don’t take our word for it — hear what our customers are saying</p>
+            <div class="section-five--text">
+                <h2 class="section-five--secondary-text">Our comfort <span>place</span></h2>
+                <p class="section-five--description-text">Don’t take our word for it — hear what our customers are saying</p>
             </div>
-            <div class="section-five-image">
-                <img src="images/section-five--main-image.png" alt="Coffe Place" class="section-five-main-image">
+            <div class="section-five--image">
+                <img src="images/section-five--main-image.png" alt="Coffe Place" class="section-five--main-image">
                 </div>
         </section>
         <!-- SECTION SIX -->
         <section class="section-six">
-            <div class="section-six-text">
-                <h3 class="section-six-tertiary-text">Love to hear something from you</h3>
+            <div class="section-six--text">
+                <h3 class="section-six--tertiary-text">Love to hear something from you</h3>
             </div>
-            <form class="section-six-form">
-                <h3 class="section-six-form-text">Get in touch</h3>
+            <form class="section-six--form">
+                <h3 class="section-six--form-text">Get in touch</h3>
                 <input type="text" placeholder="Name">
                 <input type="text" placeholder="Email">
                 <input type="text" placeholder="Number">
                 <button class="submit" type="submit">Send</button>
             </form>
         </section>
+        <!-- SECTION SEVEN -->
+        <section class="section-seven">
+            <div class="section-seven--text">
+                <h2 class="section-seven--secondary-text">Our beloved customer said</h2>
+                <p class="section-seven--description-text">Don’t take our word for it — hear what our customers are saying</p>
+            </div>
+            <div class="testimonials">
+                <div class="testimonials-one">
+                    <img src="images/testimonials-stars.png" alt="Testimonials Stars" class="testimonials-stars">
+                    <p class="testimonials-description">“We used Made Renovation for our recent bathroom remodel and were so happy with the smooth, transparent, and efficient process. Id explicabo laboriosam recusandae delectus voluptatibus in, !"</p>
+                    <div class="testimonials-person">
+                        <img src="images/testimonials-image-one.png" alt="Amalia Zara Jezz" class="testimonials-person--image">
+                        <div class="testimonials-person--text">
+                            <h4>Amalia Zara Jezz</h4>
+                            <p>From Google</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-two">
+                    <img src="images/testimonials-stars.png" alt="Testimonials Stars" class="testimonials-stars">
+                    <p class="testimonials-description">“Made Renovation has been an absolute dream!! I met with several contractors before finding them. No one does what these guys do! Id explicabo laboriosam recusandae delectus voluptatibus in!".</p>
+                    <div class="testimonials-person">
+                        <img src="images/testimonials-image-two.png" alt="Kennath Nath" class="testimonials-person--image">
+                        <div class="testimonials-person--text">
+                            <h4>Kennath Nath</h4>
+                            <p>From Google</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-three">
+                    <img src="images/testimonials-stars.png" alt="Testimonials Stars" class="testimonials-stars">
+                    <p class="testimonials-description">“Our bathroom turned out more beautiful than we could imagine and we feel like we're in a five-star spa every day. Id explicabo laboriosam recusandae delectus voluptatibus in!".</p>
+                    <div class="testimonials-person">
+                        <img src="images/testimonials-image-three.png" alt="Barly Liali" class="testimonials-person--image">
+                        <div class="testimonials-person--text">
+                            <h4>Barly Liali</h4>
+                            <p>From Google</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer--information">
+                <div class="footer--information-one">
+                    <img src="images/logo-coffe.png" alt="Coffe Logo">
+                    <p class="information-one-description">Disininih, 32 Galungan Road, Baturaja, Denpasar, Bali 12121</p>
+                    <a href="#"><ion-icon class="information-one-icon" name="logo-linkedin"></ion-icon></a>
+                    <a href=""><ion-icon class="information-one-icon" name="logo-twitter"></ion-icon></a>
+                    <a href=""><ion-icon class="information-one-icon" name="logo-facebook"></ion-icon></a>
+                </div>
+                <div class="footer--information-two">
+                    <h4>Services</h4>
+                    <ul>
+                        <a href="#"><li>Investment</li></a>
+                        <a href="#"><li>Blogs</li></a>
+                        <a href="#"><li>Assets Market</li></a>
+                        <a href="#"><li>Trading</li></a>
+                    </ul>
+                </div>
+                <div class="footer--information-three">
+                <h4>Information</h4>
+                    <ul>
+                        <a href="#"><li>Sign Up</li></a>
+                        <a href="#"><li>Join Community</li></a>
+                        <a href="#"><li>Learning</li></a>
+                        <a href="#"><li>Newsletter</li></a>
+                    </ul>
+                </div>
+                <div class="footer--information-four">
+                <h4>Platform</h4>
+                    <ul>
+                        <a href="#"><li>Terms of Use</li></a>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Contact</li></a>
+                        <a href="#"><li>Partnership</li></a>
+                    </ul>
+                </div>
+                <div class="footer--information-five">
+                <h4>Sosial Media</h4>
+                    <ul>
+                        <a href="#"><li>Instagram</li></a>
+                        <a href="#"><li>Twitter</li></a>
+                        <a href="#"><li>Facebook</li></a>
+                        <a href="#"><li>LinkedIn</li></a>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">Copyright 2022 CONNECTION All Reserved</p>
+        </footer>
     </main>
 </body>
 </html>
