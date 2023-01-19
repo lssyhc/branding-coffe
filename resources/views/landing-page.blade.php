@@ -189,7 +189,7 @@
                     </ul>
                 </div>
                 <div class="footer--information-five">
-                <h4>Sosial Media</h4>
+                <h4>Social Media</h4>
                     <ul>
                         <a href="#"><li>Instagram</li></a>
                         <a href="#"><li>Twitter</li></a>
