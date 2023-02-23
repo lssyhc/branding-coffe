@@ -156,7 +156,8 @@
             <div class="footer--information">
                 <div class="footer--information-one">
                     <img src="images/logo-coffe.png" alt="Coffe Logo">
-                    <p class="information-one-description">Disininih, 32 Galungan Road, Baturaja, Denpasar, Bali 12121</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.237647575568!2d109.2157523145052!3d-7.438936375358222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655f2fe31b2345%3A0x63acf7f8afdb8166!2sConnection%20Cafe%20%26%20Resto!5e0!3m2!1sid!2sid!4v1674692127724!5m2!1sid!2sid" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="information-one-description">Jl. Margantara Selatan No.70, Tanjung, Kec. Purwokerto Sel., Kabupaten Banyumas, Jawa Tengah 53171</p>
                     <a href="#"><ion-icon class="information-one-icon" name="logo-linkedin"></ion-icon></a>
                     <a href=""><ion-icon class="information-one-icon" name="logo-twitter"></ion-icon></a>
                     <a href=""><ion-icon class="information-one-icon" name="logo-facebook"></ion-icon></a>
